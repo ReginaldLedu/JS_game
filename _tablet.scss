@@ -1,0 +1,129 @@
+@media (max-width:1000px){
+	@mixin gameTitle-Mobile{
+		text-align: center;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 39px;
+	}
+	@mixin gameText-Mobile{
+		text-align: center;
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.center{
+		padding-left: calc(50% - 343px);
+		padding-right: calc(50% - 343px);
+	}
+	h1{
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 39px;
+		text-align: center;
+	}
+	.welcome__block{
+		height:735px;
+		background-image: url('./img/mobileTop.png');
+		background-repeat: no-repeat;
+		background-size: 100%, 100%;
+		background-position: 0 0;
+	}
+	.welcome__text{
+		font-style: normal;
+		font-weight: 300;
+		font-size: 14px;
+		text-align: center;
+		width:100%;
+		margin-bottom: 32px;
+		font-style: normal;
+		line-height: 22px;
+	}
+	.welcome__title{
+		padding-top: 238px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	.welcome__button{
+		padding-left: calc(50% - 122px);
+	}
+	.games__wrap{
+		flex-direction: column;
+		row-gap: 32px;
+		align-items: center;
+	}
+	.game1{
+		width:343px;
+		height:300px;
+		
+	}
+	.game2{
+		width:343px;
+		height:300px;
+		
+	}
+	.game3{
+		width:343px;
+		height:300px;
+	}
+
+	.seasons{
+		display: flex;
+		flex-direction: column;
+		column-gap: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.season__title{
+		@include gameTitle-Mobile();
+		padding-top: 51px;
+	}
+	.season__text{
+		@include gameText-Mobile();
+	}
+	.season__button{
+		padding-left: calc(50% - 122px);
+	}
+	
+	.svg{
+		transform: scale(0.59);
+		}
+	.svg:hover{
+		transform: scale(1.1);
+	}
+
+	.remember{
+		display: flex;
+		flex-direction: column;
+		column-gap: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.remember__title{
+		@include gameTitle-Mobile();
+		padding-top: 51px;
+	}
+
+	.remember__text{
+		@include gameText-Mobile();
+	}
+
+	.remember__button{
+		padding-left: calc(50% - 122px);
+	}
+
+	.riddles__title{
+		@include gameTitle-Mobile();
+		padding-top: 51px;
+	}
+
+	.riddles__text{
+		@include gameText-Mobile();
+	}
+
+	.riddles__button{
+		padding-left: calc(50% - 122px);
+		padding-bottom: 487px;
+	}
+}

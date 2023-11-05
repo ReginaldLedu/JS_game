@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+@mixin gameTitle(){
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	color: #FFFFFF;
+}
+@mixin gameText {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+@mixin gameButton{
+	width: 234px;
+	height: 48px;
+	transition: transform 0.3s;
+}
+
+.center{
+	padding-left: calc(50% - 600px);
+	padding-right: calc(50% - 600px);
+}
+
+.welcome__block{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: #000915 url('./img/topImg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+	background-position: 0 0;
+	height:1024px;
+}
+
+.welcome__title{
+	padding-top: 217px;
+	width:788px;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 32px;
+}
+
+h1{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 78px;
+	color: #FFFFFF;
+}
+
+.welcome__text{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 32px;
+	color: #FFFFFF;
+	width:481px;
+	margin-bottom: 44px;
+}
+
+.welcome__button{
+	width:234px;
+	height:48px;
+	transition: transform 0.3s;
+}
+.welcome__button:hover{
+	transform:scale(1.5);
+	}
+
+button{
+	width:100%;
+	height:100%;
+	background-color: #9C0332;
+	border-radius: 30px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	border:none;
+}
+
+
+.game-block{
+	background-color: #000915;
+	padding-top: 128px;
+	padding-bottom: 128px;
+	box-sizing: border-box;
+	height: 100%;
+	margin-top: -10px;
+}
+
+.games__wrap{
+	display: flex;
+	justify-content: stretch;
+	column-gap: 32px;
+	}
+
+.game1{
+	width:379px;
+	height:300px;
+	background-image: url('./img/game1.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+	padding-top: 236px;
+	padding-bottom: 32px;
+	padding-left: 32px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	border-radius: 16px;
+	box-sizing: border-box;
+	transition: transform 0.3s;
+	}
+	.game1:hover{
+		transform:scale(1.1);
+	}
+
+.game2{
+	width:378px;
+	height:300px;
+	background-image: url('./img/game2.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+	padding-top: 236px;
+	padding-bottom: 32px;
+	padding-left: 32px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	border-radius: 16px;
+	box-sizing: border-box;	
+	transition: transform 0.3s;
+}
+.game2:hover{
+	transform:scale(1.1);
+}
+
+.game3{
+	width:379px;
+	height:300px;
+	background-image: url('./img/game3.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+	padding-top: 236px;
+	padding-bottom: 32px;
+	padding-left: 32px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	border-radius: 16px;
+	box-sizing: border-box;
+	transition: transform 0.3s;
+	}
+	.game3:hover{
+		transform:scale(1.1);
+	}
+
+.seasons{
+	display: flex;
+	background: #000915;
+	column-gap: 135px;
+	padding-top: 282px;
+	padding-bottom: 233px;
+	margin-top: -10px;
+}
+
+.season__title{
+	@include gameTitle();
+	margin-bottom: 32px;
+}
+.season__text{
+	@include gameText();
+	margin-bottom: 32px;
+}
+
+.season__button{
+	@include gameButton();
+
+}
+.season__button:hover{
+	transform: scale(1.5);
+}
+.svg{
+	transition: transform 0.3s;
+}
+.svg:hover{
+	transform:scale(1.1);
+}
+
+.remember{
+	display: flex;
+	background: #000915;
+	column-gap: 135px;
+	padding-top: 282px;
+	padding-bottom: 233px;
+	margin-top: -10px;
+
+}
+
+
+.remember__title{
+	@include gameTitle();
+	margin-bottom: 32px;
+}
+.remember__text{
+	@include gameText();
+	margin-bottom: 32px;
+}
+.remember__button{
+	@include gameButton();
+}
+
+.riddles{
+	display: flex;
+	flex-direction: column;
+	margin-top: -2px;
+	padding-bottom: 32px;
+	background: #000915 url('./img/unsplash_iO0I6-mhDEY.png');
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+	background-position: 0 0;
+	}
+
+.riddles__title{
+	@include gameTitle();
+	margin-bottom: 32px;
+	text-align: center;
+	padding-top: 276px;
+}
+
+.riddles__text{
+	@include gameText();
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+.riddles__button{
+	@include gameButton();
+	padding-left: calc(50% - 140px);
+	padding-bottom: 288px;
+}
+
+
+@import 'mobile';
+@import 'tablet';

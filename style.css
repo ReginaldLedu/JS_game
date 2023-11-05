@@ -1,0 +1,657 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.welcome__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #000915 url("./img/topImg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: 0 0;
+  height: 1024px;
+}
+
+.welcome__title {
+  padding-top: 217px;
+  width: 788px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.welcome__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 481px;
+  margin-bottom: 44px;
+}
+
+.welcome__button {
+  width: 234px;
+  height: 48px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.welcome__button:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  background-color: #9C0332;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.game-block {
+  background-color: #000915;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  margin-top: -10px;
+}
+
+.games__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+
+.game1 {
+  width: 379px;
+  height: 300px;
+  background-image: url("./img/game1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  padding-top: 236px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  border-radius: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.game1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.game2 {
+  width: 378px;
+  height: 300px;
+  background-image: url("./img/game2.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  padding-top: 236px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  border-radius: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.game2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.game3 {
+  width: 379px;
+  height: 300px;
+  background-image: url("./img/game3.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  padding-top: 236px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  border-radius: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.game3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.seasons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #000915;
+  -webkit-column-gap: 135px;
+     -moz-column-gap: 135px;
+          column-gap: 135px;
+  padding-top: 282px;
+  padding-bottom: 233px;
+  margin-top: -10px;
+}
+
+.season__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.season__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.season__button {
+  width: 234px;
+  height: 48px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.season__button:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.svg {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.svg:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #000915;
+  -webkit-column-gap: 135px;
+     -moz-column-gap: 135px;
+          column-gap: 135px;
+  padding-top: 282px;
+  padding-bottom: 233px;
+  margin-top: -10px;
+}
+
+.remember__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.remember__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.remember__button {
+  width: 234px;
+  height: 48px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.riddles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -2px;
+  padding-bottom: 32px;
+  background: #000915 url("./img/unsplash_iO0I6-mhDEY.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: 0 0;
+}
+
+.riddles__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  text-align: center;
+  padding-top: 276px;
+}
+
+.riddles__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.riddles__button {
+  width: 234px;
+  height: 48px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  padding-left: calc(50% - 140px);
+  padding-bottom: 288px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .welcome__block {
+    height: 735px;
+    background-image: url("./img/mobileTop.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: 0 0;
+  }
+  .welcome__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
+    font-style: normal;
+    line-height: 22px;
+  }
+  .welcome__title {
+    padding-top: 238px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .welcome__button {
+    padding-left: calc(50% - 122px);
+  }
+  .games__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 32px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .game1 {
+    width: 343px;
+    height: 300px;
+  }
+  .game2 {
+    width: 343px;
+    height: 300px;
+  }
+  .game3 {
+    width: 343px;
+    height: 300px;
+  }
+  .seasons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .season__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+  }
+  .season__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .season__button {
+    padding-left: calc(50% - 122px);
+  }
+  .svg {
+    -webkit-transform: scale(0.59);
+            transform: scale(0.59);
+  }
+  .svg:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .remember {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .remember__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+  }
+  .remember__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .remember__button {
+    padding-left: calc(50% - 122px);
+  }
+  .riddles__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+  }
+  .riddles__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .riddles__button {
+    padding-left: calc(50% - 122px);
+    padding-bottom: 487px;
+  }
+}
+@media (max-width: 1000px) {
+  .center {
+    padding-left: calc(50% - 343px);
+    padding-right: calc(50% - 343px);
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .welcome__block {
+    height: 735px;
+    background-image: url("./img/mobileTop.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: 0 0;
+  }
+  .welcome__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
+    font-style: normal;
+    line-height: 22px;
+  }
+  .welcome__title {
+    padding-top: 238px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .welcome__button {
+    padding-left: calc(50% - 122px);
+  }
+  .games__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 32px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .game1 {
+    width: 343px;
+    height: 300px;
+  }
+  .game2 {
+    width: 343px;
+    height: 300px;
+  }
+  .game3 {
+    width: 343px;
+    height: 300px;
+  }
+  .seasons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .season__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+  }
+  .season__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .season__button {
+    padding-left: calc(50% - 122px);
+  }
+  .svg {
+    -webkit-transform: scale(0.59);
+            transform: scale(0.59);
+  }
+  .svg:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .remember {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .remember__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+  }
+  .remember__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .remember__button {
+    padding-left: calc(50% - 122px);
+  }
+  .riddles__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 51px;
+  }
+  .riddles__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .riddles__button {
+    padding-left: calc(50% - 122px);
+    padding-bottom: 487px;
+  }
+}
